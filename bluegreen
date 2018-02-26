@@ -30,7 +30,7 @@ on_fail () {
 }
 
 
-cf login -a ${CF_API_ENDPOINT} -u ${CF_USERNAME} -p ${CF_PASSWORD} -o rental -s ${ENVIRONMENT}
+cf login -a ${cf-api} -u ${cf-username} -p ${cf-password} -o rental -s ${ENVIRONMENT}
 
 set -x
 
