@@ -15,7 +15,6 @@ set -e
 set -o pipefail
 
 GREEN="${BLUE}-B"
-BUILDPACK="https://github.com/cloudfoundry/ruby-buildpack#v1.7.8"
 
 finally ()
 {
