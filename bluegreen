@@ -2,7 +2,7 @@
 
 # Blue-green deployment script. Usage:
 #
-#   ./cf-blue-green <appname>
+  ./cf-blue-green BLUE
 
 if [[ -z "${DEPLOY_ARGS}" ]]; then
     BLUE=$1
