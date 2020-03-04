@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Blue-green deployment script. Usages:
+# Blue-green deployment script. second:
 #
   ./cf-blue-green BLUE
 
