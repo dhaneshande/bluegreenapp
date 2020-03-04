@@ -46,7 +46,7 @@ DOMAIN=$(cf domains | grep -e '^apps\.homedepot' -e '^apps-np.homedepot' | awk '
 # create the GREEN application
 cf push $GREEN -f $MANIFEST -n $GREEN --no-start -b "$BUILDPACK"
 
-# start the app now that it is fully configuredd
+# start the app now that it is fully configured
 cf start $GREEN
 
 
